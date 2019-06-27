@@ -16,7 +16,7 @@ autotest:
   volumes:
     - ./src:/app/src
     - /app/node_modules
-  command: mocha ./src/hello.spec.js --watch
+  command: mocha ./src/hello.spec.js --watch --color
   environment:
     - NODE_ENV=test
 
@@ -27,7 +27,7 @@ test:
   volumes:
     - ./src:/app/src
     - /app/node_modules
-  command: mocha ./src/hello.spec.js
+  command: mocha ./src/hello.spec.js --color
   environment:
     - NODE_ENV=test
 

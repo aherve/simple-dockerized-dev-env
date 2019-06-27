@@ -1,8 +1,8 @@
-var should = require('should')
-var hello = require('./hello')
+const expect = require('chai').expect
+const hello = require('./hello')
 
 describe ('count', function (done) {
   it ('should return 1', function done () {
-    hello().should.eql(1)
+    expect(hello()).to.eql(1)
   })
 })

@@ -9,9 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "babel": "^6.5.2",
-    "express": "^4.13.4",
-    "mocha": "^2.4.5",
-    "should": "^8.2.2"
+    "chai": "^4.2.0",
+    "mocha": "^2.4.5"
   }
 }
